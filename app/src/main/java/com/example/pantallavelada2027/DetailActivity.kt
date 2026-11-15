@@ -14,15 +14,12 @@ class DetailActivity : AppCompatActivity() {
         binding = ActivityDetailBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        // Asignación flexible de textos a través de las propiedades
         binding.miCardCustom.titulo = "Encabezado o título"
         binding.miCardCustom.subtitulo = "Subtítulo"
         binding.miCardCustom.descripcion = "Esta es una breve descripción sobre la Card."
 
-        // Añadir imagen de manera programática
         binding.miCardCustom.setImageResource(R.drawable.fotovelada)
 
-        // Configurar eventos de clic en los botones de acción
         binding.miCardCustom.setOnAccion1ClickListener {
             Toast.makeText(this, "Acción 1 pulsada", Toast.LENGTH_SHORT).show()
         }

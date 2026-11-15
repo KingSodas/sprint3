@@ -14,7 +14,6 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        // Evento click exigido en el Reto 7
         binding.miBoton.setOnClickListener {
             Toast.makeText(this, "Todavía no está implementado", Toast.LENGTH_SHORT).show()
         }
