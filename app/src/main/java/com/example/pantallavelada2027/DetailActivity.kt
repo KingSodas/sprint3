@@ -14,8 +14,8 @@ class DetailActivity : AppCompatActivity() {
         binding = ActivityDetailBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.miCardCustom.titulo = "Encabezado o título"
-        binding.miCardCustom.subtitulo = "Subtítulo"
+        binding.miCardCustom.titulo = "My Card Velada"
+        binding.miCardCustom.subtitulo = ""
         binding.miCardCustom.descripcion = "Esta es una breve descripción sobre la Card."
 
         binding.miCardCustom.setImageResource(R.drawable.fotovelada)
